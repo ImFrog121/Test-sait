@@ -6,8 +6,8 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.wallpaperscraft.com/image/single/girl_sailor_suit_starry_sky_993466_2560x1080.jpg');
     position: fixed;
     background-size:auto cover;
-    opacity: 0%;
-    transition: opacity 5s;
+    opacity: 0;
+    animation: pageFadeIn 1s ease forwards;
 }
     
 .header{
@@ -44,7 +44,9 @@ body{
 {
     padding-right: 500px;
 }
-body
-{
-    opacity: 100%;
+
+@keyframes pageFadeIn {
+    to {
+        opacity: 1;
+    }
 }
