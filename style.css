@@ -30,6 +30,16 @@ body{
 .button2 { 
     background-color: #00a2ff; 
     color: #ffffff; 
-    border-radius: 15px;
-    image 
+    border-radius: 25px;
+    text-align: justify,center;
+    transition: padding-right 2s
+}
+.button2 img{
+    height: 50px;
+    float:left
 } 
+
+.button2:hover
+{
+    padding-right: 500px;
+}
