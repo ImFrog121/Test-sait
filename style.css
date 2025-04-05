@@ -6,6 +6,8 @@ body{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.wallpaperscraft.com/image/single/girl_sailor_suit_starry_sky_993466_2560x1080.jpg');
     position: fixed;
     background-size:auto cover;
+    opacity: 0%;
+    transition: opacity 5s;
 }
     
 .header{
@@ -30,15 +32,19 @@ body{
     background-color: #00a2ff; 
     color: #ffffff; 
     border-radius: 25px;
-    text-align: justify,center;
-    transition: padding-left 2s
+    text-align: center;
+    transition: padding-right 2s
 }
 .button2 img{
     height: 50px;
-    float:left
+    float:right
 } 
 
 .button2:hover
 {
-    padding-left: 500px;
+    padding-right: 500px;
+}
+body
+{
+    opacity: 100%;
 }
