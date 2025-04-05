@@ -7,6 +7,7 @@ body{
     background-size:auto cover;
 }
 .header{
+    text-shadow:2px 2px #000000;
     border: 15px transparent ;
     display: block;
     float: left;
@@ -18,8 +19,9 @@ body{
     font-size: 50px ;
 }
 .text{
+    text-shadow:2px 2px #000000;
     border:  5px transparent ;
     font-size: 25px;
-    color: red;
+    color: rgb(255, 255, 255);
 }
     
