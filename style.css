@@ -27,13 +27,8 @@ body{
     font-size: 25px;
     color: rgb(255, 255, 255);
 }
-.circle{
-    background:aqua;
-    border: 1px solid black ;
-    width: 800px ;
-    height: 200px ;
-    border-radius: 45% ;
-    margin-right: 50px ;
-    margin-bottom: 10px;
-}
-    
+.button2 { 
+    background-color: #F5A40D; 
+    color: #ffffff; 
+    border-radius: 15px; 
+} 
