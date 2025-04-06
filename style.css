@@ -31,9 +31,9 @@ body{
 .button2 { 
     background-color: #0083c0; 
     color: #ffffff; 
-    border-radius: 25px;
+    border-radius: 15px;
     text-align: center;
-    transition: padding-right 2s
+    transition: padding-right 1s
 }
 .button2 img{
     height: 50px;
@@ -52,7 +52,7 @@ body{
 
 @keyframes pageFadeIn {
     to {
-        opacity: 1;
+        opacity: 1
     }
 }
 
